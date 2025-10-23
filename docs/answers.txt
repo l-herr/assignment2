@@ -1,0 +1,38 @@
+I went trhough the Git Lab Tutorials on 10/21/2025 and 10/22/2025
+I made my GitHub account roughly around 2023
+
+1. On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\lherr\OneDrive\Documents\GitHub\assignment2> 
+
+
+2. There have been 9 commits done to the repository according to the command: git rev-list --count -all
+
+3. readme.md was last modified on Wed Oct 22 19:28:16 2025. I used the command git log-1 --README.md
+
+4. Branches allow developers to develop features independently and allow for collaboration and parallel development. 
+
+5. git log shows the commit history, git status shows the state of the local repository, the changes that haven't been commited yet. 
+
+6. To see commits where vehicle.h was one of the commits, you would use the command git log -- vehicle.h
+
+7. The command you would use to see commits whose commit message contains the word file would be git log --grep="file"
+
+8. In the context of object oriented programming, inheritance is a concept where there are parent and child classes. Child classes "inheret" functionality from a parent class,
+meaning they can use the same functions and have access to the same data types, if applicable. Polymorphism allows for different classes to respond to the same function call 
+in different ways, streamlinining the way an interface can handle behavior. Encapsulation is the concept of insulating data types and methods inside a class, allow external access through
+things like getters and setters.
+
+9. The difference between the dictator and lieutenants workflow and the integration manager workflow is that the integration manager workflow is a flatter hierarchy, with a single central person being
+responsible for reviews and merging with the main repository. In the dictator and lieutenants workflow, merges and commits are not handled by a central figure, but by a series of lieutenants.
+After this is cleared, the final say goes to the dictator.
+
+10. A team of 100 developers would benefit from the dictator and lieutenants workflow because it scales well in large team situations, dividing large quantities of merges, pushes, and pulls into
+segments. The lieutenants each handle a subset of the developers and after their work is cleared it goes to the dictator. This helps bring order to the work being done, which under the
+centralized workflow, would quickly become chaotic with merge conflicts as 100 different people are attempting to do different things at the same time without oversight. 
